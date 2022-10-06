@@ -30,8 +30,8 @@ app.use('/api/posts', (req, res, next) => {
 
   return res.status(200).json({
     message: "Posts fetched Succesfully!",
-    post: posts
-  })
+    posts: posts
+  });
 });
 
 module.exports = app;
